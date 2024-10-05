@@ -1,6 +1,6 @@
 package org.springfromscratch;
 
-public class Laptop {
+public class Laptop implements Computer {
     private String name;
 
     public String getName() {
@@ -13,5 +13,11 @@ public class Laptop {
 
     public Laptop(){
         System.out.println("laptop assigned to alien...");
+        compile();
+    }
+
+    public void compile(){
+
+        System.out.println("in laptop compile");
     }
 }

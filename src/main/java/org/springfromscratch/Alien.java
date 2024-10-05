@@ -6,16 +6,15 @@ import org.springframework.stereotype.Component;
 public class Alien {
      String name;
      int age;
-     Laptop lap;
+     Computer com;
 
-    public Laptop getLap() {
-        return lap;
+    public Computer getCom() {
+        return com;
     }
 
-    public void setLap(Laptop lap) {
-        this.lap = lap;
+    public void setCom(Computer com) {
+        this.com = com;
     }
-
 
     public Alien() {
         System.out.println("Alien created");
